@@ -1,12 +1,11 @@
 # hiver-sre-assignment
-Assignment for hiver SRE
 
-Part1: Terraform Iac
+## Part1: Terraform Iac
 
 To run the terraform configuration:
 
 Step1: Install terraform
-Step2: The Aws provider expects a configuration file saved in ~/.aws/credentials, the systax of the file is as below:
+Step2: The Aws provider expects a configuration file saved in ~/.aws/credentials, the syntax of the file is as below:
 
 [default]
 aws_access_key_id = A*************
@@ -19,7 +18,8 @@ Step4: terraform apply
 
 Note: There are no input variables expected for the terraform config.
 
-Part2: Python script
+
+## Part2: Python script
 
 To run the Python Script:
 
