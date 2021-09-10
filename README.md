@@ -5,6 +5,7 @@
 To run the terraform configuration:
 
 Step1: Install terraform
+
 Step2: The Aws provider expects a configuration file saved in ~/.aws/credentials, the syntax of the file is as below:
 
 [default]
@@ -23,6 +24,8 @@ Note: There are no input variables expected for the terraform config.
 
 To run the Python Script:
 
-Step1: cd python-ec2 
+Step1: cd python-ec2
+
 Step2: pip3 install -r requirements.txt
+
 Step3: python3 describe-ec2.py
