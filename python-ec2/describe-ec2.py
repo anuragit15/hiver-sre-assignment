@@ -22,8 +22,6 @@ def get_tags(resourceId):
             break
         else:
             continue
-    else:
-        return("Name tag not found")
 
 reservations = ec2_client.describe_instances(Filters=[
         {
