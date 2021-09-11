@@ -16,12 +16,12 @@ def get_tags(resourceId):
             "Values": ["instance"]
         }
     ])
-    for f in tags['Tags']:
-        if f['Key'] == 'Name':
-            return f['Value']
-            break
-        else:
-            continue
+    if True:
+        for f in tags['Tags']:
+            if f['Key'] == 'Name':
+                return f['Value']
+            else:
+                continue
 
 reservations = ec2_client.describe_instances(Filters=[
         {
