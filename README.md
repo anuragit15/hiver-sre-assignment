@@ -4,9 +4,9 @@
 
 To run the terraform configuration:
 
-### Step 1: Install terraform
+##### Step 1: Install terraform
 
-### Step 2: The Aws provider expects a configuration file saved in ~/.aws/credentials, the syntax of the file is as below:
+##### Step 2: The Aws provider expects a configuration file saved in ~/.aws/credentials, the syntax of the file is as below:
 ```
 [default]
 aws_access_key_id = A*************
@@ -15,9 +15,9 @@ aws_secret_access_key = D***********
 
 Or use any other authentication method as per: https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication
 
-### Step 3: cd terraform-iac
+##### Step 3: cd terraform-iac
 
-### Step 4: terraform apply
+##### Step 4: terraform apply
 
 Note: There are no input variables expected for the terraform config.
 
@@ -26,8 +26,8 @@ Note: There are no input variables expected for the terraform config.
 
 To run the Python Script:
 
-Step1: `cd python-ec2`
+##### Step 1: `cd python-ec2`
 
-Step2: `pip3 install -r requirements.txt`
+##### Step 2: `pip3 install -r requirements.txt`
 
-Step3: `python3 describe-ec2.py`
+##### Step 3: `python3 describe-ec2.py`
