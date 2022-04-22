@@ -15,6 +15,7 @@ aws_secret_access_key = D***********
 Or use any other authentication method as per: https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication
 
 Step3: cd terraform-iac
+
 Step4: terraform apply
 
 Note: There are no input variables expected for the terraform config.
