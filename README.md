@@ -24,8 +24,8 @@ Note: There are no input variables expected for the terraform config.
 
 To run the Python Script:
 
-Step1: cd python-ec2
+Step1: `cd python-ec2`
 
-Step2: pip3 install -r requirements.txt
+Step2: `pip3 install -r requirements.txt`
 
-Step3: python3 describe-ec2.py
+Step3: `python3 describe-ec2.py`
